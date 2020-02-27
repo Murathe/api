@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     
     'apis',
     'social_django',
+    'bootstrap3',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -84,6 +85,8 @@ DATABASES = {
     }
 }
 
+SOCIAL_AUTH_FACEBOOK_KEY = '1938692262942014'        # App ID
+SOCIAL_AUTH_FACEBOOK_SECRET = '4a107c718d680e472a083c00df3aca8b'  # App Secret
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
